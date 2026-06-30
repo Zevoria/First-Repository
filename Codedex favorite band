@@ -1,0 +1,23 @@
+<!-- Write code below 💖 -->
+<body>
+  <h1>Doro</h1>
+  <img src ="https://www.doromusic.de/img_4537">
+  <p> <i>Doro Pesch</i> was the lead singer for the band <b>Warlock</b> until the early 90's.</p>
+  <a href = "https://doromusic.de" > Internet Archive </a>
+  <h4>Band Members</h4>
+  <ul>
+    <li> Doro Pesch</li>
+    <li> Nick Douglas</li>
+    <li> Johnny Dee</li>
+    <li> Bas Maas</li>
+    <li> Luca Princiotta</li>
+  </ul>
+  <h4>Favorite Songs</h4>
+  <ol>
+    <li> Salvaje</li>
+    <li> All We Are</li>
+    <li> Love Me In Black</li>
+    <li> Fur Immer</li>
+    <li> All Night</li>
+  </ol>
+</body>
