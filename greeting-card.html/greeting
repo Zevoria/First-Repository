@@ -16,10 +16,7 @@
     }
 
     table,
-    td {
-      mso-table-lspace: 0;
-      mso-table-rspace: 0;
-    }
+  
 
     table {
       border-collapse: collapse !important;
@@ -118,11 +115,11 @@
               <h1
                 class="headline"
                 style="margin:16px 0 12px;
-                       color:#4c1d95;
+                       color:#e068c2;
                        font-family:Georgia, 'Times New Roman', serif;
                        font-size:42px;
                        line-height:48px;">
-                Happy Birthday, Alex!
+                Happy Birthday, Sloane!
               </h1>
 
               <p
@@ -130,8 +127,7 @@
                        color:#4b5563;
                        font-size:18px;
                        line-height:29px;">
-                Wishing you a wonderful day filled with laughter,
-                good company, and everything that makes you smile.
+                Happy 5th Birthday!
               </p>
 
               <!-- Email-compatible button -->
@@ -168,7 +164,7 @@
 
               <p
                 style="margin:30px 0 0;
-                       color:#6b7280;
+                       color:#9c3ba5;
                        font-size:15px;
                        line-height:23px;">
                 With love,<br>
@@ -183,7 +179,7 @@
               align="center"
               style="padding:20px;
                      background-color:#fdf2f8;
-                     color:#9d174d;
+                     color:#f06ea2;
                      font-family:Arial, Helvetica, sans-serif;
                      font-size:14px;">
               ✨ Celebrate, laugh, and make a wish! ✨
@@ -193,7 +189,7 @@
 
         <p
           style="margin:18px 0 0;
-                 color:#6b7280;
+                 color:#7b3185;
                  font-family:Arial, Helvetica, sans-serif;
                  font-size:12px;
                  line-height:18px;">
