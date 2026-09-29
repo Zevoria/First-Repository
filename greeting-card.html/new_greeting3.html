@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Greeting Card</title>
+	<style>
+		/* General page styles */
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.card {
+			width: 600px;
+			max-width: 90%;
+			margin: 40px auto;
+			background-color: #ffffff;
+			border-radius: 12px;
+			overflow: hidden;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		}
+
+		/* Header */
+		.header {
+			background-color: #fd1d1d;
+			color: rgb(8, 0, 0);
+			text-align: center;
+			padding: 40px 20px;
+		}
+
+		.header h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+
+		.header p {
+			font-size: 18px;
+			margin-top: 10px;
+		}
+
+		/* Message area */
+		.message {
+			padding: 35px;
+			color: #070101;
+			line-height: 1.6;
+		}
+
+		.message h2 {
+			color: #01000f;
+		}
+
+
+		/* Footer */
+		.footer {
+			background-color: #f1f1f1;
+			text-align: center;
+			padding: 20px;
+			color: #050101;
+			font-size: 25px;
+		}
+
+		/* Mobile styles */
+		@media screen and (max-width: 600px) {
+			.card {
+				width: 95%;
+				margin: 20px auto;
+			}
+
+			.header h1 {
+				font-size: 28px;
+			}
+
+			.message {
+				padding: 25px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<div class="header">
+			<div style="font-size: 60px;">🎂,/div>
+			<h1>Happy Birthday!</h1>
+			<p>Wishing you a wonderful day!</p>
+		</div>
+
+		<div class="message">
+			<h2>Dear Member,</h2>
+			<p>
+				I hope your special day is filled with happiness,
+				laughter, and plenty of wonderful memories.
+			</p>
+
+			<p>Have an amazing birthday!</p>
+
+		</div>
+
+		<div class="footer">
+			<p>
+				With best wishes,<br>
+				<strong>Members 1st</strong>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
