@@ -1,0 +1,71 @@
+/* Remove the browser's default spacing */
+* {
+	box-sizing: border-box;
+}
+
+/* Style the entire page */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	min-height: 100vh;
+}
+
+/* Main box */
+.container {
+	background-color: white;
+	padding: 30px;
+	width: 350px;
+
+	text-align: center;
+
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+	margin-bottom: 10px;
+}
+
+/* Email input */
+input {
+	width: 100%;
+	padding: 12px;
+	margin: 15px 0;
+
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+
+	font-size: 16px;
+}
+
+/* Button */
+button {
+	width: 100%;
+	padding: 12px;
+
+	background-color: #ff7b00;
+	color: white;
+
+	border: none;
+	border-radius: 5px;
+
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* Change button appearance when mouse is over it */
+button:hover {
+	background-color: #ff7b00;
+}
+
+/* Message displayed by JavaScript */
+#message {
+	margin-top: 20px;
+	font-weight: bold;
+}
