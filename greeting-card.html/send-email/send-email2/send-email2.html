@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Send an Email</title>
+	<link rel="stylesheet" href="send-email2.css">
+</head>
+<body>
+
+	<div class="email-container">
+		<h1>Send an Email</h1>
+
+		<form action="mailto:" method="get">
+			<label for="email">Recipient Email Address:</label>
+
+			<input
+				type="email"
+				id="email"
+				name="to"
+				placeholder="example@email.com"
+				required
+			>
+
+			<label for="subject">Subject:</label>
+
+			<input
+				type="text"
+				id="subject"
+				name="subject"
+				value="A Greeting for You"
+				required
+			>
+
+			<label for="message">Message:</label>
+
+			<textarea
+				id="message"
+				name="body"
+				rows="5"
+				required
+			>Hello! I am sending you a Birthday greeting.</textarea>
+
+			<button type="submit">Send Email</button>
+		</form>
+	</div>
+
+</body>
+</html>
